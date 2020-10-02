@@ -30,7 +30,7 @@ const Abyssal = () => {
 
   return (
     <Fragment>
-      <div className="jumbotron jumbotron-fluid">
+      <div className="jumbotron">
         <div className="container">
           <h1 className="display-4">파티원정</h1>
           <p class="lead">
