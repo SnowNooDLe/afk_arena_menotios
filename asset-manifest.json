@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/afk_arena_menotios/static/css/main.471c3ac3.chunk.css",
-    "main.js": "/afk_arena_menotios/static/js/main.a11b3f2b.chunk.js",
-    "main.js.map": "/afk_arena_menotios/static/js/main.a11b3f2b.chunk.js.map",
+    "main.js": "/afk_arena_menotios/static/js/main.957a78e3.chunk.js",
+    "main.js.map": "/afk_arena_menotios/static/js/main.957a78e3.chunk.js.map",
     "runtime-main.js": "/afk_arena_menotios/static/js/runtime-main.45e35db9.js",
     "runtime-main.js.map": "/afk_arena_menotios/static/js/runtime-main.45e35db9.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/afk_arena_menotios/static/css/2.8aa5a7f8.chunk.css",
     "static/js/2.11eef699.chunk.js": "/afk_arena_menotios/static/js/2.11eef699.chunk.js",
     "static/js/2.11eef699.chunk.js.map": "/afk_arena_menotios/static/js/2.11eef699.chunk.js.map",
     "index.html": "/afk_arena_menotios/index.html",
-    "precache-manifest.8ecc32bff5c6a9673dfd898df41e119d.js": "/afk_arena_menotios/precache-manifest.8ecc32bff5c6a9673dfd898df41e119d.js",
+    "precache-manifest.7a2f642a29277e476b8adf1cf54a1f31.js": "/afk_arena_menotios/precache-manifest.7a2f642a29277e476b8adf1cf54a1f31.js",
     "service-worker.js": "/afk_arena_menotios/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/afk_arena_menotios/static/css/2.8aa5a7f8.chunk.css.map",
     "static/css/main.471c3ac3.chunk.css.map": "/afk_arena_menotios/static/css/main.471c3ac3.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.8aa5a7f8.chunk.css",
     "static/js/2.11eef699.chunk.js",
     "static/css/main.471c3ac3.chunk.css",
-    "static/js/main.a11b3f2b.chunk.js"
+    "static/js/main.957a78e3.chunk.js"
   ]
 }
