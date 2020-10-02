@@ -1,8 +1,9 @@
 import React, { Fragment } from "react";
 
-import guide1 from "assets/images/guide_1.jpg";
-import guide2 from "assets/images/guide_2.jpg";
-import guide3 from "assets/images/abyssal_guide.png";
+import startChar1 from "assets/images/guide_1.jpg";
+import startChar2 from "assets/images/guide_2.jpg";
+import casualsGuide from "assets/images/abyssal_guide.png";
+import map from "assets/images/guide_3.jpg";
 
 import "assets/style/Abyssal.css";
 
@@ -56,6 +57,17 @@ const Abyssal = () => {
             </li>
           </ol>
         </div>
+        <br />
+        <div className="map">
+          <h2>현재 플랜입니다.</h2>
+          <h3 className="black-line">검정라인 - 시작후 본인 위치에 따라, A5 또는 A12 로 모여주시기 바랍니다.</h3>
+          <h3 className="red-line">빨간라인 - 외각 보스 처치 후 A5 이셨던 분들은 B2, A12 이셨던 분들은 B4 로 모여주시기 바랍니다.</h3>
+          <h3 className="orange-line">주황라인 - 외각 보스 처치 후 주황 라인을 따라 파밍 하세요 (공터 3개 이상 룰 꼭 지켜 주시구요.)</h3>
+          <h3 className="green-line">초록라인 - 마지막 보스 전은 둘중 하나만 치겠습니다</h3>
+
+          <img src={map} />
+        </div>
+        <br />
         <div className="recommended-start">
           <h1>
             추천 시작 캐릭터{" "}
@@ -68,7 +80,7 @@ const Abyssal = () => {
             정신건강에 이로울거 같습니다.
           </h2>
           <h3>엔진 + 서포터</h3>
-          <img src={guide1} />
+          <img src={startChar1} />
           <p>
             핵심:{" "}
             <span style={{ fontWeight: "bold" }}>
@@ -79,7 +91,7 @@ const Abyssal = () => {
             중요: <span style={{ fontWeight: "bold" }}>로젤린, 타시</span>
           </p>
           <h3>레인저</h3>
-          <img src={guide2} />
+          <img src={startChar2} />
           <p>
             핵심:{" "}
             <span style={{ fontWeight: "bold" }}>
@@ -93,14 +105,15 @@ const Abyssal = () => {
             </span>
           </p>
         </div>
+        <br />
         <div className="casual-info">
           <h2>
             <a href="https://www.reddit.com/r/afkarena/comments/j36xzf/visual_guide_to_pushing_abyssal_expedition_ft/">
               Visual Guide to Pushing Abyssal Expedition (ft. CASUALS)
             </a>
           </h2>
-          <h4>현재 외각보스를 2개 가냐 4개 가냐 고민중에 있습니다.</h4>
-          <img src={guide3} />
+
+          <img src={casualsGuide} />
         </div>
       </div>
     </Fragment>
