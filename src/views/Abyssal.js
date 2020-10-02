@@ -33,7 +33,10 @@ const Abyssal = () => {
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
           <h1 className="display-4">파티원정</h1>
-
+          <p class="lead">
+            언제든 공유하고 싶은 자료가 있으시면 알려주세요, 업데이트
+            하겠습니다.
+          </p>
           <div class="col-md-12">
             <div className="btn-group">
               <button
@@ -147,7 +150,7 @@ const Abyssal = () => {
             </a>
           </h1>
           <h2>
-            정해진 룰은 없습니다만, 엔진 + 서포터 + 레인저 가 이로저로
+            정해진 룰은 없습니다만, 엔진 + 서포터 + 레인저 가 여러모로
             정신건강에 이로울거 같습니다.
           </h2>
           <h3>엔진 + 서포터</h3>
