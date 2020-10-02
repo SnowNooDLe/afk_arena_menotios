@@ -1,8 +1,6 @@
 import React from "react";
-import { Router, Route, Switch } from "react-router-dom";
-import "./App.css";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
-import History from "utils/History";
 import NavBar from "components/NavBar";
 
 import Home from "views/Home";
@@ -10,7 +8,7 @@ import Abyssal from "views/Abyssal";
 
 function App() {
   return (
-    <Router history={History}>
+    <HashRouter basename="/">
       <div className="App">
         <NavBar />
         <div className="container-fluid">
@@ -21,7 +19,7 @@ function App() {
           </Switch>
         </div>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
