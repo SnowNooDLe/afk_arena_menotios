@@ -11,7 +11,7 @@ function App() {
     <HashRouter basename="/">
       <div className="App">
         <NavBar />
-        <div className="container-fluid">
+        <div className="container">
           <Switch>
             <Route path="/" exact component={Home} />
 

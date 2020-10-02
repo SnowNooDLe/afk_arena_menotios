@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <Fragment>
-      <div className="jumbotron jumbotron-fluid">
+      <div className="jumbotron">
         <div className="container">
           <h1 className="display-4">환영합니다</h1>
           <p className="lead">

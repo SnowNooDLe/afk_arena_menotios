@@ -16,23 +16,27 @@ const NavBar = () => {
 
   const toggle = () => setIsOpen(!isOpen);
   return (
-    <Navbar color="light" light expand="md" bg="dark">
-      <NavbarBrand tag={Link} to={"/"}>
-        Menotios
-      </NavbarBrand>
+    <div className="container-fluid">
+      <Navbar color="light" light expand="md" bg="dark">
+        <div className="container">
+          <NavbarBrand tag={Link} to={"/"}>
+            Menotios
+          </NavbarBrand>
 
-      <NavbarToggler onClick={toggle} />
-      <Collapse isOpen={isOpen} navbar>
-        <Nav className="mr-auto" navbar>
-          <NavItem>
-            <NavLink tag={Link} to={"/abyssal"}>
-              파티원정
-            </NavLink>
-          </NavItem>
-        </Nav>
-        <NavbarText>SnowNooDLe</NavbarText>
-      </Collapse>
-    </Navbar>
+          <NavbarToggler onClick={toggle} />
+          <Collapse isOpen={isOpen} navbar>
+            <Nav className="mr-auto" navbar>
+              <NavItem>
+                <NavLink tag={Link} to={"/abyssal"}>
+                  파티원정
+                </NavLink>
+              </NavItem>
+            </Nav>
+            <NavbarText>SnowNooDLe</NavbarText>
+          </Collapse>
+        </div>
+      </Navbar>
+    </div>
   );
 };
 
