@@ -36,21 +36,21 @@ const Abyssal = () => {
           <div className="btn-group flex-wrap">
             <button
               type="button"
-              class="btn btn-secondary"
+              class="btn btn-secondary mr-2"
               onClick={scrollToRule}
             >
               기본적인 룰
             </button>
             <button
               type="button"
-              class="btn btn-secondary"
+              class="btn btn-secondary mr-2"
               onClick={scrollToRoute}
             >
               공략 루트
             </button>
             <button
               type="button"
-              class="btn btn-secondary"
+              class="btn btn-secondary mr-2"
               onClick={scrollToChar}
             >
               캐릭터 추천
