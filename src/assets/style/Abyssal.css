@@ -1,6 +1,7 @@
 img {
   max-width: 100%;
   max-height: 100%;
+  display: block;
 }
 
 h3.black-line {
@@ -21,4 +22,8 @@ h3.orange-line {
 h3.green-line {
   font-weight: bolder;
   color: green;
+}
+
+button.btn-success {
+  margin-top: 15px;
 }
