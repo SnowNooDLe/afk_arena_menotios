@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/afk_arena_menotios/static/css/main.174a5bd6.chunk.css",
+    "main.js": "/afk_arena_menotios/static/js/main.96371ed4.chunk.js",
+    "main.js.map": "/afk_arena_menotios/static/js/main.96371ed4.chunk.js.map",
+    "runtime-main.js": "/afk_arena_menotios/static/js/runtime-main.45e35db9.js",
+    "runtime-main.js.map": "/afk_arena_menotios/static/js/runtime-main.45e35db9.js.map",
+    "static/css/2.8aa5a7f8.chunk.css": "/afk_arena_menotios/static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.706e6cf5.chunk.js": "/afk_arena_menotios/static/js/2.706e6cf5.chunk.js",
+    "static/js/2.706e6cf5.chunk.js.map": "/afk_arena_menotios/static/js/2.706e6cf5.chunk.js.map",
+    "index.html": "/afk_arena_menotios/index.html",
+    "precache-manifest.be7dfa375fa48df5a71bba6a3924906b.js": "/afk_arena_menotios/precache-manifest.be7dfa375fa48df5a71bba6a3924906b.js",
+    "service-worker.js": "/afk_arena_menotios/service-worker.js",
+    "static/css/2.8aa5a7f8.chunk.css.map": "/afk_arena_menotios/static/css/2.8aa5a7f8.chunk.css.map",
+    "static/css/main.174a5bd6.chunk.css.map": "/afk_arena_menotios/static/css/main.174a5bd6.chunk.css.map",
+    "static/js/2.706e6cf5.chunk.js.LICENSE.txt": "/afk_arena_menotios/static/js/2.706e6cf5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45e35db9.js",
+    "static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.706e6cf5.chunk.js",
+    "static/css/main.174a5bd6.chunk.css",
+    "static/js/main.96371ed4.chunk.js"
+  ]
+}
