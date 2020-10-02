@@ -33,35 +33,38 @@ const Abyssal = () => {
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
           <h1 className="display-4">파티원정</h1>
-          <div className="btn-group flex-wrap">
-            <button
-              type="button"
-              class="btn btn-secondary mr-2"
-              onClick={scrollToRule}
-            >
-              기본적인 룰
-            </button>
-            <button
-              type="button"
-              class="btn btn-secondary mr-2"
-              onClick={scrollToRoute}
-            >
-              공략 루트
-            </button>
-            <button
-              type="button"
-              class="btn btn-secondary mr-2"
-              onClick={scrollToChar}
-            >
-              캐릭터 추천
-            </button>
-            <button
-              type="button"
-              class="btn btn-secondary"
-              onClick={scrollToCASUALS}
-            >
-              CASUALS 추천
-            </button>
+
+          <div class="col-md-12">
+            <div className="btn-group">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                onClick={scrollToRule}
+              >
+                기본적인 룰
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                onClick={scrollToRoute}
+              >
+                공략 루트
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                onClick={scrollToChar}
+              >
+                캐릭터 추천
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                onClick={scrollToCASUALS}
+              >
+                CASUALS 추천
+              </button>
+            </div>
           </div>
         </div>
       </div>
