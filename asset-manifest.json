@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/afk_arena_menotios/static/css/main.370f852b.chunk.css",
-    "main.js": "/afk_arena_menotios/static/js/main.42c65680.chunk.js",
-    "main.js.map": "/afk_arena_menotios/static/js/main.42c65680.chunk.js.map",
+    "main.css": "/afk_arena_menotios/static/css/main.c19290b8.chunk.css",
+    "main.js": "/afk_arena_menotios/static/js/main.49d62eec.chunk.js",
+    "main.js.map": "/afk_arena_menotios/static/js/main.49d62eec.chunk.js.map",
     "runtime-main.js": "/afk_arena_menotios/static/js/runtime-main.45e35db9.js",
     "runtime-main.js.map": "/afk_arena_menotios/static/js/runtime-main.45e35db9.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/afk_arena_menotios/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.9f6f89c2.chunk.js": "/afk_arena_menotios/static/js/2.9f6f89c2.chunk.js",
-    "static/js/2.9f6f89c2.chunk.js.map": "/afk_arena_menotios/static/js/2.9f6f89c2.chunk.js.map",
+    "static/js/2.3bff49e0.chunk.js": "/afk_arena_menotios/static/js/2.3bff49e0.chunk.js",
+    "static/js/2.3bff49e0.chunk.js.map": "/afk_arena_menotios/static/js/2.3bff49e0.chunk.js.map",
     "index.html": "/afk_arena_menotios/index.html",
-    "precache-manifest.93010b9d78eb42a298f9bae73c746ab7.js": "/afk_arena_menotios/precache-manifest.93010b9d78eb42a298f9bae73c746ab7.js",
+    "precache-manifest.e54b90415bd608114874e2de87b98d38.js": "/afk_arena_menotios/precache-manifest.e54b90415bd608114874e2de87b98d38.js",
     "service-worker.js": "/afk_arena_menotios/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/afk_arena_menotios/static/css/2.8aa5a7f8.chunk.css.map",
-    "static/css/main.370f852b.chunk.css.map": "/afk_arena_menotios/static/css/main.370f852b.chunk.css.map",
-    "static/js/2.9f6f89c2.chunk.js.LICENSE.txt": "/afk_arena_menotios/static/js/2.9f6f89c2.chunk.js.LICENSE.txt",
+    "static/css/main.c19290b8.chunk.css.map": "/afk_arena_menotios/static/css/main.c19290b8.chunk.css.map",
+    "static/js/2.3bff49e0.chunk.js.LICENSE.txt": "/afk_arena_menotios/static/js/2.3bff49e0.chunk.js.LICENSE.txt",
     "static/media/abyssal_guide.png": "/afk_arena_menotios/static/media/abyssal_guide.672f0394.png",
     "static/media/guide_1.jpg": "/afk_arena_menotios/static/media/guide_1.f8a57824.jpg",
-    "static/media/guide_2.jpg": "/afk_arena_menotios/static/media/guide_2.e84a0724.jpg"
+    "static/media/guide_2.jpg": "/afk_arena_menotios/static/media/guide_2.e84a0724.jpg",
+    "static/media/guide_3.jpg": "/afk_arena_menotios/static/media/guide_3.83b034c9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.45e35db9.js",
     "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.9f6f89c2.chunk.js",
-    "static/css/main.370f852b.chunk.css",
-    "static/js/main.42c65680.chunk.js"
+    "static/js/2.3bff49e0.chunk.js",
+    "static/css/main.c19290b8.chunk.css",
+    "static/js/main.49d62eec.chunk.js"
   ]
 }
