@@ -112,7 +112,7 @@ const Abyssal = () => {
             <p>
               아래의 사진처럼, 기존 구역에서{" "}
               <span style={{ color: "blue", fontWeight: "bolder" }}>공터</span>
-              가 나 또는 누군가가 점령했고, 그 앞으로 저런식으로 먹을수 있는
+              가 나 또는 누군가가 점령했고, 그 앞으로 저런식으로 먹을수 있는{" "}
               <span style={{ color: "red", fontWeight: "bolder" }}>영지</span>가
               있다면, 가장 이상적인건 저{" "}
               <span style={{ color: "blue", fontWeight: "bolder" }}>공터</span>
