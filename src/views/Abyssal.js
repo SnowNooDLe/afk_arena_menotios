@@ -3,6 +3,7 @@ import React, { Fragment, useRef } from "react";
 import startChar1 from "assets/images/guide_1.jpg";
 import startChar2 from "assets/images/guide_2.jpg";
 import casualsGuide from "assets/images/abyssal_guide.png";
+import tile from "assets/images/tile.jpg";
 import map from "assets/images/guide_3.jpg";
 
 import "assets/style/Abyssal.css";
@@ -89,7 +90,6 @@ const Abyssal = () => {
                 <li>길이 끊기는 것을 방지하기 위해 최소한 공터 3개 유지</li>
               </ul>
             </li>
-
             <li>
               다른 사람이 잇고 있는 공터와 인접한 영지는 확인 (공지방 또는
               인게임챗) 뒤 공격
@@ -108,6 +108,29 @@ const Abyssal = () => {
                 </li>
               </ul>
             </li>
+            <br />
+            <p>
+              아래의 사진처럼, 기존 구역에서{" "}
+              <span style={{ color: "blue", fontWeight: "bolder" }}>공터</span>
+              가 나 또는 누군가가 점령했고, 그 앞으로 저런식으로 먹을수 있는
+              <span style={{ color: "red", fontWeight: "bolder" }}>영지</span>가
+              있다면, 가장 이상적인건 저{" "}
+              <span style={{ color: "blue", fontWeight: "bolder" }}>공터</span>
+              를 드신분이, 인접한 영지를 군단챗에 올려주셨으면 합니다. 본인이 이{" "}
+              <span style={{ color: "red", fontWeight: "bolder" }}>영지</span>를
+              먹을건지, 안먹을건지 정도로요.
+            </p>
+            <p>
+              혹여나 그게 안되더라도, 위에 써진대로 공지방에 @태그를 그리고/또는
+              군단챗에{" "}
+              <span style={{ color: "blue", fontWeight: "bolder" }}>공터</span>
+              를 드신분게 먼저 여쭤봐주시기 바랍니다.
+            </p>
+            <p>
+              물론 귀찮으시겠지만, 후에 땅 먹는걸로 싸움이 일어나지 않았으면
+              하는 바램입니다
+            </p>
+            <img src={tile} />
 
             <li>
               피 빼주기 금지
@@ -119,7 +142,6 @@ const Abyssal = () => {
                 </li>
               </ul>
             </li>
-
             <li>
               천왕 퀘스트 관련 레벨 8 영토 (대도시)
               <ul>
@@ -135,7 +157,11 @@ const Abyssal = () => {
               </ul>
             </li>
           </ol>
-          <button type="button" className="btn btn-success" onClick={scrollToTop}>
+          <button
+            type="button"
+            className="btn btn-success"
+            onClick={scrollToTop}
+          >
             페이지 맨 위로
           </button>
         </div>
@@ -160,7 +186,11 @@ const Abyssal = () => {
 
           <img src={map} />
 
-          <button type="button" className="btn btn-success" onClick={scrollToTop}>
+          <button
+            type="button"
+            className="btn btn-success"
+            onClick={scrollToTop}
+          >
             페이지 맨 위로
           </button>
         </div>
@@ -201,7 +231,11 @@ const Abyssal = () => {
               타이더스, 나코루루, 켈투르, 탕구리(보스)
             </span>
           </p>
-          <button type="button" className="btn btn-success" onClick={scrollToTop}>
+          <button
+            type="button"
+            className="btn btn-success"
+            onClick={scrollToTop}
+          >
             페이지 맨 위로
           </button>
         </div>
@@ -214,7 +248,11 @@ const Abyssal = () => {
           </h2>
 
           <img src={casualsGuide} />
-          <button type="button" className="btn btn-success" onClick={scrollToTop}>
+          <button
+            type="button"
+            className="btn btn-success"
+            onClick={scrollToTop}
+          >
             페이지 맨 위로
           </button>
         </div>
