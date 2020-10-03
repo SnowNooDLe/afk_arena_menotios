@@ -33,36 +33,36 @@ const Abyssal = () => {
       <div className="jumbotron">
         <div className="container">
           <h1 className="display-4">파티원정</h1>
-          <p class="lead">
+          <p className="lead">
             언제든 공유하고 싶은 자료가 있으시면 알려주세요, 업데이트
             하겠습니다.
           </p>
-          <div class="col-md-12">
+          <div className="col-md-12">
             <div className="btn-group">
               <button
                 type="button"
-                class="btn btn-secondary"
+                className="btn btn-secondary"
                 onClick={scrollToRule}
               >
                 기본적인 룰
               </button>
               <button
                 type="button"
-                class="btn btn-secondary"
+                className="btn btn-secondary"
                 onClick={scrollToRoute}
               >
                 공략 루트
               </button>
               <button
                 type="button"
-                class="btn btn-secondary"
+                className="btn btn-secondary"
                 onClick={scrollToChar}
               >
                 캐릭터 추천
               </button>
               <button
                 type="button"
-                class="btn btn-secondary"
+                className="btn btn-secondary"
                 onClick={scrollToCASUALS}
               >
                 CASUALS 추천
@@ -73,7 +73,7 @@ const Abyssal = () => {
       </div>
       <div id="section1" className="container">
         <a
-          class="btn btn-info"
+          className="btn btn-info"
           href="https://gall.dcinside.com/afk/484906#tx1"
           role="button"
         >
@@ -135,7 +135,7 @@ const Abyssal = () => {
               </ul>
             </li>
           </ol>
-          <button type="button" class="btn btn-success" onClick={scrollToTop}>
+          <button type="button" className="btn btn-success" onClick={scrollToTop}>
             페이지 맨 위로
           </button>
         </div>
@@ -160,7 +160,7 @@ const Abyssal = () => {
 
           <img src={map} />
 
-          <button type="button" class="btn btn-success" onClick={scrollToTop}>
+          <button type="button" className="btn btn-success" onClick={scrollToTop}>
             페이지 맨 위로
           </button>
         </div>
@@ -201,7 +201,7 @@ const Abyssal = () => {
               타이더스, 나코루루, 켈투르, 탕구리(보스)
             </span>
           </p>
-          <button type="button" class="btn btn-success" onClick={scrollToTop}>
+          <button type="button" className="btn btn-success" onClick={scrollToTop}>
             페이지 맨 위로
           </button>
         </div>
@@ -214,7 +214,7 @@ const Abyssal = () => {
           </h2>
 
           <img src={casualsGuide} />
-          <button type="button" class="btn btn-success" onClick={scrollToTop}>
+          <button type="button" className="btn btn-success" onClick={scrollToTop}>
             페이지 맨 위로
           </button>
         </div>
