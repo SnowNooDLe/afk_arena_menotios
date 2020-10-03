@@ -110,21 +110,18 @@ const Abyssal = () => {
             </li>
             <br />
             <p>
-              아래의 사진처럼, 기존 구역에서{" "}
+              아래의 사진처럼{" "}
               <span style={{ color: "blue", fontWeight: "bolder" }}>공터</span>
-              가 나 또는 누군가가 점령했고, 그 앞으로 저런식으로 먹을수 있는{" "}
+              를 나 또는 누군가가 점령했고 그 주변으로 먹을 수 있는{" "}
               <span style={{ color: "red", fontWeight: "bolder" }}>영지</span>가
-              있다면, 가장 이상적인건 저{" "}
-              <span style={{ color: "blue", fontWeight: "bolder" }}>공터</span>
-              를 드신분이, 인접한 영지를 군단챗에 올려주셨으면 합니다. 본인이 이{" "}
-              <span style={{ color: "red", fontWeight: "bolder" }}>영지</span>를
-              먹을건지, 안먹을건지 정도로요.
+              있다면 가장 이상적인 방법은{" "}
+              <span style={{ color: "blue", fontWeight: "bolder" }}>공터</span>{" "}
+              소유자가 군단챗에 작업진행여부를 알려주 것입니다.
             </p>
             <p>
-              혹여나 그게 안되더라도, 위에 써진대로 공지방에 @태그를 그리고/또는
-              군단챗에{" "}
-              <span style={{ color: "blue", fontWeight: "bolder" }}>공터</span>
-              를 드신분게 먼저 여쭤봐주시기 바랍니다.
+              혹여 그게 안 될 경우, 공지방에 @ 태그 또는 군단챗에서{" "}
+              <span style={{ color: "blue", fontWeight: "bolder" }}>공터</span>{" "}
+              소유자에게 먼저 여쭤보시길 바랍니다.
             </p>
             <p>
               물론 귀찮으시겠지만, 후에 땅 먹는걸로 싸움이 일어나지 않았으면
