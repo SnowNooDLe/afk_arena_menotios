@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 import RankTable from "components/RankTable";
 import { MemberList } from "assets/data/Member";
 
-import "assets/style/Tracker.css"
+import "assets/style/Tracker.css";
 
 const Home = () => {
   // 견습기사
