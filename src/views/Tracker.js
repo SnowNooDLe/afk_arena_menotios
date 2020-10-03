@@ -7,10 +7,11 @@ const Home = () => {
 
   for (const [key, value] of Object.entries(MemberList)) {
     rows.push(
-      <tr>
+      <tr key={key}>
         <th scope="row">{key}</th>
         <td>{value.신분}</td>
         <td>{value.유물5}</td>
+        <td>{value.천왕퀘}</td>
       </tr>
     );
   }
@@ -23,16 +24,19 @@ const Home = () => {
         </div>
       </div>
       <div className="container">
-        <table class="table table-striped table-bordered">
-          <thead>
-            <tr>
-              <th scope="col">Username</th>
-              <th scope="col">신분 현황</th>
-              <th scope="col">유물 5 갯수</th>
-            </tr>
-          </thead>
-          <tbody>{rows}</tbody>
-        </table>
+        <div className="table-responsive">
+          <table className="table table-striped table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Username</th>
+                <th scope="col">신분 현황</th>
+                <th scope="col">유물 5 갯수</th>
+                <th scope="col">천왕 퀘스트 남은 갯수</th>
+              </tr>
+            </thead>
+            <tbody>{rows}</tbody>
+          </table>
+        </div>
       </div>
     </Fragment>
   );
