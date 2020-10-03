@@ -72,6 +72,14 @@ const Abyssal = () => {
         </div>
       </div>
       <div id="section1" className="container">
+        <a
+          class="btn btn-info"
+          href="https://gall.dcinside.com/afk/484906#tx1"
+          role="button"
+        >
+          파티 원정이 처음이신분에게는 도움 될만한 글
+        </a>
+
         <div className="basic-rule" ref={rule}>
           <h1>기본적인 룰</h1>
           <ol>
@@ -122,8 +130,7 @@ const Abyssal = () => {
                 <li>
                   기존 파티원정처럼 천왕 퀘스트 완료 용 레벨 8 영토 (대도시)
                   하나를 고를 텐데요, 이 영토 같은경우는 기다리시는 분이 있고
-                  없고를 떠나 무조건 퀘스트 완료 후 포기 하는 형태로
-                  가겠습니다.
+                  없고를 떠나 무조건 퀘스트 완료 후 포기 하는 형태로 가겠습니다.
                 </li>
               </ul>
             </li>
