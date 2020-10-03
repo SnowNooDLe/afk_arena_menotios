@@ -31,6 +31,11 @@ const NavBar = () => {
                   파티원정
                 </NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink tag={Link} to={"/tracker"}>
+                  참여 현황
+                </NavLink>
+              </NavItem>
             </Nav>
             <NavbarText>SnowNooDLe</NavbarText>
           </Collapse>
