@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9cb5d340e46f500bef9f89265d0e5419",
+    "revision": "20038a75ffe4197871ede226d6a0328f",
     "url": "/afk_arena_menotios/index.html"
   },
   {
