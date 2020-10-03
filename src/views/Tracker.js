@@ -53,7 +53,7 @@ const Home = () => {
         </div>
       </div>
       <div className="container">
-        <h1>신분 현황</h1>
+        <h1>신분 현황 (총 68명)</h1>
         <div className="table-div">
           <h2>견습기사 인원: {Object.keys(level1).length}</h2>
           <RankTable rank="견습기사" data={level1} />
