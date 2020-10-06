@@ -5,6 +5,7 @@ import startChar2 from "assets/images/guide_2.jpg";
 import casualsGuide from "assets/images/abyssal_guide.png";
 import tile from "assets/images/tile.jpg";
 import map from "assets/images/guide_3.jpg";
+import example from "assets/images/example.jpg";
 
 import "assets/style/Abyssal.css";
 
@@ -166,17 +167,35 @@ const Abyssal = () => {
         <div className="map" ref={route}>
           <h2>현재 플랜입니다.</h2>
           <h3 className="black-line">
-            검정라인 - 시작후 본인 위치에 따라, A5 또는 A12 로 모여주시기
-            바랍니다.
+            <strike>
+              검정라인 - 시작후 본인 위치에 따라, A5 또는 A12 로 모여주시기
+              바랍니다.
+            </strike>
           </h3>
           <h3 className="red-line">
-            빨간라인 - 외각 보스 처치 후 A5 이셨던 분들은 B2, A12 이셨던 분들은
-            B4 로 모여주시기 바랍니다.
+            <strike>
+              빨간라인 - 외각 보스 처치 후 A5 이셨던 분들은 B2, A12 이셨던
+              분들은 B4 로 모여주시기 바랍니다.
+            </strike>
           </h3>
           <h3 className="orange-line">
-            주황라인 - 외각 보스 처치 후 주황 라인을 따라 파밍 하세요 (공터 3개
-            이상 룰 꼭 지켜 주시구요.)
+            <strike>
+              주황라인 - 외각 보스 처치 후 주황 라인을 따라 파밍 하세요 (공터
+              3개 이상 룰 꼭 지켜 주시구요.)
+            </strike>
           </h3>
+          <h3 className="light-sky-line">
+            파랑라인 - 현재 위쪽 보스 다음이 레벨 7 도시라서, 밑에서 왼쪽으로
+            파밍한곳으로 해서 연결하려 합니다. B4 부터는 파밍문제 떄문에라도
+            조금나가서 두갈래로 나눠지든 하겠습니다. 현재 밑에 계신분들은 먼저
+            올라가시기 바랍니다.
+          </h3>
+          <h5 className="red-line">
+            빨강색으로 칠해진곳은 잠시 유지해주시고, 파밍을 위해 땅을 포기하셔야
+            한다면 이제는 필요없을 노랑으로 표시된, 제일 외각쪽 땅을
+            포기하시면서 올라가주시기 바랍니다. 이제는 외각땅은 필요 없으십니다.
+            <img src={example} />
+          </h5>
           <h3 className="green-line">
             초록라인 - 마지막 보스 전은 둘중 하나만 치겠습니다
           </h3>

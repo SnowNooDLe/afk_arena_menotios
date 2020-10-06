@@ -9,11 +9,16 @@ h3.black-line {
   color: black;
 }
 
+h5.red-line,
 h3.red-line {
   font-weight: bolder;
   color: red;
 }
 
+h3.light-sky-line {
+  font-weight: bolder;
+  color: #87CEFA;
+}
 h3.orange-line {
   font-weight: bolder;
   color: orange;
