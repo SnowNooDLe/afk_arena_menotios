@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b47af5a68deedc81bec176dc45ce523c",
+    "revision": "85442e38b09c0fa44b8edefa2cf30d64",
     "url": "/afk_arena_menotios/index.html"
   },
   {
-    "revision": "08fb67a70fe1c8dec078",
+    "revision": "5183777368a19fbbbf13",
     "url": "/afk_arena_menotios/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "2a8a5caefe88ded6e5fd",
-    "url": "/afk_arena_menotios/static/css/main.6992b5a6.chunk.css"
+    "revision": "6ea97f153ae937507bbf",
+    "url": "/afk_arena_menotios/static/css/main.5adf3ba9.chunk.css"
   },
   {
-    "revision": "08fb67a70fe1c8dec078",
-    "url": "/afk_arena_menotios/static/js/2.86478ca7.chunk.js"
+    "revision": "5183777368a19fbbbf13",
+    "url": "/afk_arena_menotios/static/js/2.5d652bab.chunk.js"
   },
   {
     "revision": "6f9c91f92830cd94e0e9d23e81437a49",
-    "url": "/afk_arena_menotios/static/js/2.86478ca7.chunk.js.LICENSE.txt"
+    "url": "/afk_arena_menotios/static/js/2.5d652bab.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2a8a5caefe88ded6e5fd",
-    "url": "/afk_arena_menotios/static/js/main.e89431d8.chunk.js"
+    "revision": "6ea97f153ae937507bbf",
+    "url": "/afk_arena_menotios/static/js/main.0e1010a8.chunk.js"
   },
   {
     "revision": "0e0e73f1f28f0203cfd0",
@@ -32,6 +32,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/afk_arena_menotios/static/media/abyssal_guide.672f0394.png"
   },
   {
+    "revision": "3f31226767a1d3f118f75b5330863daa",
+    "url": "/afk_arena_menotios/static/media/example.3f312267.jpg"
+  },
+  {
     "revision": "f8a57824ac2292fec22cb9d5356d48ed",
     "url": "/afk_arena_menotios/static/media/guide_1.f8a57824.jpg"
   },
@@ -40,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/afk_arena_menotios/static/media/guide_2.e84a0724.jpg"
   },
   {
-    "revision": "c5618ce7156524f2abca14badc85dc56",
-    "url": "/afk_arena_menotios/static/media/guide_3.c5618ce7.jpg"
+    "revision": "2f9481426e3f27816a8e4407d682b0a2",
+    "url": "/afk_arena_menotios/static/media/guide_3.2f948142.jpg"
   },
   {
     "revision": "816dbf70c745968f881b38b840f35fc1",
