@@ -33,6 +33,8 @@ button.btn-success {
   margin-top: 15px;
 }
 
-div.basic-rule {
+div.basic-rule,
+div.current-operation {
   margin-top: 20px;
 }
+
