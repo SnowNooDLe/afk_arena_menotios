@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/afk_arena_menotios/static/css/main.5adf3ba9.chunk.css",
-    "main.js": "/afk_arena_menotios/static/js/main.226e88e8.chunk.js",
-    "main.js.map": "/afk_arena_menotios/static/js/main.226e88e8.chunk.js.map",
+    "main.css": "/afk_arena_menotios/static/css/main.ce2d1289.chunk.css",
+    "main.js": "/afk_arena_menotios/static/js/main.a630474a.chunk.js",
+    "main.js.map": "/afk_arena_menotios/static/js/main.a630474a.chunk.js.map",
     "runtime-main.js": "/afk_arena_menotios/static/js/runtime-main.45e35db9.js",
     "runtime-main.js.map": "/afk_arena_menotios/static/js/runtime-main.45e35db9.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/afk_arena_menotios/static/css/2.8aa5a7f8.chunk.css",
     "static/js/2.d6b5d3f2.chunk.js": "/afk_arena_menotios/static/js/2.d6b5d3f2.chunk.js",
     "static/js/2.d6b5d3f2.chunk.js.map": "/afk_arena_menotios/static/js/2.d6b5d3f2.chunk.js.map",
     "index.html": "/afk_arena_menotios/index.html",
-    "precache-manifest.b155177650caa6449f09b34425955180.js": "/afk_arena_menotios/precache-manifest.b155177650caa6449f09b34425955180.js",
+    "precache-manifest.17b29233a288c800336dc36fc60f6f46.js": "/afk_arena_menotios/precache-manifest.17b29233a288c800336dc36fc60f6f46.js",
     "service-worker.js": "/afk_arena_menotios/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/afk_arena_menotios/static/css/2.8aa5a7f8.chunk.css.map",
-    "static/css/main.5adf3ba9.chunk.css.map": "/afk_arena_menotios/static/css/main.5adf3ba9.chunk.css.map",
+    "static/css/main.ce2d1289.chunk.css.map": "/afk_arena_menotios/static/css/main.ce2d1289.chunk.css.map",
     "static/js/2.d6b5d3f2.chunk.js.LICENSE.txt": "/afk_arena_menotios/static/js/2.d6b5d3f2.chunk.js.LICENSE.txt",
     "static/media/abyssal_guide.png": "/afk_arena_menotios/static/media/abyssal_guide.672f0394.png",
     "static/media/example.jpg": "/afk_arena_menotios/static/media/example.3f312267.jpg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.45e35db9.js",
     "static/css/2.8aa5a7f8.chunk.css",
     "static/js/2.d6b5d3f2.chunk.js",
-    "static/css/main.5adf3ba9.chunk.css",
-    "static/js/main.226e88e8.chunk.js"
+    "static/css/main.ce2d1289.chunk.css",
+    "static/js/main.a630474a.chunk.js"
   ]
 }
