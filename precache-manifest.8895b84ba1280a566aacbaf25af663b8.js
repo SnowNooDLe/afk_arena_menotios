@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a5bba05ed05d0c8e53f690a09859552",
+    "revision": "8cea8b8df77ddaecd17a30ef04115c4a",
     "url": "/afk_arena_menotios/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/afk_arena_menotios/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "401f2e63450f4efab0d5",
+    "revision": "b161ace101808db9e374",
     "url": "/afk_arena_menotios/static/css/main.ce2d1289.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/afk_arena_menotios/static/js/2.d6b5d3f2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "401f2e63450f4efab0d5",
-    "url": "/afk_arena_menotios/static/js/main.a630474a.chunk.js"
+    "revision": "b161ace101808db9e374",
+    "url": "/afk_arena_menotios/static/js/main.b3bb46d4.chunk.js"
   },
   {
     "revision": "0e0e73f1f28f0203cfd0",
