@@ -7,7 +7,7 @@ import tile from "assets/images/tile.jpg";
 import map from "assets/images/guide_3.jpg";
 import rule1 from "assets/images/rule.jpg";
 import leftPath2 from "assets/images/party_season_2-1.png";
-import leftPath2 from "assets/images/party_season_2-2.png";
+import rightPath2 from "assets/images/party_season_2-2.png";
 import example from "assets/images/example.jpg";
 
 import "assets/style/Abyssal.css";
