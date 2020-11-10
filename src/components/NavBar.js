@@ -8,6 +8,10 @@ import {
   NavItem,
   NavLink,
   NavbarText,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
 } from "reactstrap";
 import { Link } from "react-router-dom";
 
@@ -26,11 +30,24 @@ const NavBar = () => {
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
-              <NavItem>
-                <NavLink tag={Link} to={"/abyssal"}>
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
                   파티원정
-                </NavLink>
-              </NavItem>
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <DropdownItem>
+                    <NavLink tag={Link} to={"/abyssal_s1"}>
+                      시즌 1
+                    </NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink tag={Link} to={"/abyssal_s2"}>
+                      시즌 2
+                    </NavLink>
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
+
               <NavItem>
                 <NavLink tag={Link} to={"/tracker"}>
                   참여 현황

@@ -23,8 +23,6 @@ const RankTable = ({ rank, data }) => {
       <tr key={key}>
         <th scope="row">{key}</th>
         <td>{value.신분}</td>
-        <td>{value.유물5}</td>
-        <td>{value.천왕퀘}</td>
       </tr>
     );
   }
@@ -50,8 +48,6 @@ const RankTable = ({ rank, data }) => {
                     <tr>
                       <th scope="col">Username</th>
                       <th scope="col">신분 현황</th>
-                      <th scope="col">유물 5 갯수</th>
-                      <th scope="col">천왕 퀘스트 남은 갯수</th>
                     </tr>
                   </thead>
                   <tbody>{rows}</tbody>

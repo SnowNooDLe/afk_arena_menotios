@@ -49,7 +49,8 @@ const Home = () => {
       <div className="jumbotron">
         <div className="container">
           <h1 className="display-4">참여 현황</h1>
-          <p className="lead">매일 한국시간 오후 5시 전후로 업데이트 예정</p>
+          <p>다음 시즌부터 제개</p>
+          {/* <p className="lead">매일 한국시간 오후 5시 전후로 업데이트 예정</p> */}
         </div>
       </div>
       <div className="container">

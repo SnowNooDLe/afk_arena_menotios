@@ -13,7 +13,7 @@ const Home = () => {
             하겠습니다
           </p>
           <p>
-            <Link to="/abyssal">파티원정 정보</Link>
+            <Link to="/abyssal_s2">파티원정 정보</Link>
           </p>
         </div>
       </div>
