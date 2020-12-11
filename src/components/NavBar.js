@@ -45,6 +45,11 @@ const NavBar = () => {
                       시즌 2
                     </NavLink>
                   </DropdownItem>
+                  <DropdownItem>
+                    <NavLink tag={Link} to={"/abyssal_s3"}>
+                      시즌 3
+                    </NavLink>
+                  </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
 
