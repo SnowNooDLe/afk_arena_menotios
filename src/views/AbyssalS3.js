@@ -1,14 +1,9 @@
 import React, { Fragment, useRef } from "react";
 
-import startChar1 from "assets/images/guide_1.jpg";
-import startChar2 from "assets/images/guide_2.jpg";
-import casualsGuide from "assets/images/abyssal_guide.png";
 import tile from "assets/images/tile.jpg";
-import map from "assets/images/guide_3.jpg";
+import left from "assets/images/left.png";
+import right from "assets/images/right.png"
 import rule1 from "assets/images/rule.jpg";
-import leftPath2 from "assets/images/party_season_2-1.png";
-import rightPath2 from "assets/images/party_season_2-2.png";
-import example from "assets/images/example.jpg";
 
 import "assets/style/Abyssal.css";
 
@@ -164,7 +159,12 @@ const AbyssalS3 = () => {
         </div>
         <br />
         <div className="map" ref={route}>
-          <h2>베타 시즌인 관계로 별도의 공략은 없습니다.</h2>
+          <h2>스타팅 포인트</h2>
+          <p>
+            사진에도 있듯이 <strong>참고사항</strong> 정도로만 봐주세요, 본인의 유닛 풀에 맞게 유동적으로 선택해주시기 바랍니다.
+          </p>
+          <img src={left} />
+          <img src={right} />
 
         
 

@@ -52,9 +52,13 @@ const NavBar = () => {
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
-
               <NavItem>
-                <NavLink tag={Link} to={"/tracker"}>
+                <NavLink tag={Link} to={"/rcmdeck"}>
+                  시즌 3 추천 스타팅 덱
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink tag={Link} to={"/tracker"} disabled={true}>
                   참여 현황
                 </NavLink>
               </NavItem>
