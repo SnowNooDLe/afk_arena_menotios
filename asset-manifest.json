@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/afk_arena_menotios/static/css/main.d7098ee7.chunk.css",
-    "main.js": "/afk_arena_menotios/static/js/main.b695871f.chunk.js",
-    "main.js.map": "/afk_arena_menotios/static/js/main.b695871f.chunk.js.map",
+    "main.js": "/afk_arena_menotios/static/js/main.dad0eae3.chunk.js",
+    "main.js.map": "/afk_arena_menotios/static/js/main.dad0eae3.chunk.js.map",
     "runtime-main.js": "/afk_arena_menotios/static/js/runtime-main.45e35db9.js",
     "runtime-main.js.map": "/afk_arena_menotios/static/js/runtime-main.45e35db9.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/afk_arena_menotios/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.7f3973f7.chunk.js": "/afk_arena_menotios/static/js/2.7f3973f7.chunk.js",
-    "static/js/2.7f3973f7.chunk.js.map": "/afk_arena_menotios/static/js/2.7f3973f7.chunk.js.map",
+    "static/js/2.42aede3e.chunk.js": "/afk_arena_menotios/static/js/2.42aede3e.chunk.js",
+    "static/js/2.42aede3e.chunk.js.map": "/afk_arena_menotios/static/js/2.42aede3e.chunk.js.map",
     "index.html": "/afk_arena_menotios/index.html",
-    "precache-manifest.351a5171c2fcb918699ed8d28d092352.js": "/afk_arena_menotios/precache-manifest.351a5171c2fcb918699ed8d28d092352.js",
+    "precache-manifest.d657dba0c1f333b53efb466a0c2223e3.js": "/afk_arena_menotios/precache-manifest.d657dba0c1f333b53efb466a0c2223e3.js",
     "service-worker.js": "/afk_arena_menotios/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/afk_arena_menotios/static/css/2.8aa5a7f8.chunk.css.map",
     "static/css/main.d7098ee7.chunk.css.map": "/afk_arena_menotios/static/css/main.d7098ee7.chunk.css.map",
-    "static/js/2.7f3973f7.chunk.js.LICENSE.txt": "/afk_arena_menotios/static/js/2.7f3973f7.chunk.js.LICENSE.txt",
+    "static/js/2.42aede3e.chunk.js.LICENSE.txt": "/afk_arena_menotios/static/js/2.42aede3e.chunk.js.LICENSE.txt",
     "static/media/abyssal_guide.png": "/afk_arena_menotios/static/media/abyssal_guide.672f0394.png",
     "static/media/example.jpg": "/afk_arena_menotios/static/media/example.3f312267.jpg",
     "static/media/guide_1.jpg": "/afk_arena_menotios/static/media/guide_1.f8a57824.jpg",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.45e35db9.js",
     "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.7f3973f7.chunk.js",
+    "static/js/2.42aede3e.chunk.js",
     "static/css/main.d7098ee7.chunk.css",
-    "static/js/main.b695871f.chunk.js"
+    "static/js/main.dad0eae3.chunk.js"
   ]
 }
