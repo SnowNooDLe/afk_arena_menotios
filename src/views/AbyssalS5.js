@@ -12,7 +12,7 @@ import "assets/style/Abyssal.css";
 
 const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
 
-const AbyssalS3 = () => {
+const AbyssalS5 = () => {
   // Basic MAP
   const operation = useRef(null);
   const scrollToOperation = () => scrollToRef(operation);
@@ -84,6 +84,10 @@ const AbyssalS3 = () => {
           <p>
             <strong>공통 </strong>: TBA
           </p>
+          <h4>출처:</h4>
+          <ul>
+            <li>https://www.reddit.com/r/afkarena/comments/pgqdj2/abex_map_s45_efficient_mode_by_sniffet/</li>
+          </ul>
           <img src={mapImage} />
         </div>
         <button type="button" className="btn btn-success" onClick={scrollToTop}>
@@ -171,6 +175,10 @@ const AbyssalS3 = () => {
         </div>
         <br />
         <div className="visual-guide" ref={guide}>
+          <h4>출처:</h4>
+          <ul>
+            <li>https://cafe.naver.com/afkarenakr/765607</li>
+          </ul>
           <img src={visualGuide} />
           <button
             type="button"
@@ -182,6 +190,11 @@ const AbyssalS3 = () => {
         </div>
         <div className="start-units" ref={startUnit}>
           <h2>스타팅 포인트</h2>
+          <h4>출처</h4>
+          <ul>
+            <li>https://cafe.naver.com/afkarenakr/765583</li>
+            <li>https://cafe.naver.com/afkarenakr/765403</li>
+          </ul>
           <p>
             사진에도 있듯이 <strong>참고사항</strong> 정도로만 봐주세요, 본인의
             유닛 풀에 맞게 유동적으로 선택해주시기 바랍니다.
@@ -204,4 +217,4 @@ const AbyssalS3 = () => {
   );
 };
 
-export default AbyssalS3;
+export default AbyssalS5;
