@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/afk_arena_menotios/precache-manifest.246f543e24f0143523df5253468778ae.js"
+  "/afk_arena_menotios/precache-manifest.b43ddd52a5beca2df940efd081316064.js"
 );
 
 self.addEventListener('message', (event) => {
