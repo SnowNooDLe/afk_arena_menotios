@@ -1,30 +1,38 @@
 import React, { Fragment, useRef } from "react";
 
 import tile from "assets/images/tile.jpg";
+import left from "assets/images/left.png";
+import right from "assets/images/right.png";
 import rule1 from "assets/images/rule.jpg";
-import mapImage from "assets/images/s5/season_4_5_map.jpg";
+import map_image from "assets/images/s5/season_4_5_map.jpg";
 import start1 from "assets/images/s5/start1.jpeg";
 import start2 from "assets/images/s5/start2.png";
 import start3 from "assets/images/s5/start3.jpeg";
-import visualGuide from "assets/images/s5/visual_guide.jpg";
+import CommonAbyssal from "components/CommonAbyssal.js"
 
 import "assets/style/Abyssal.css";
 
 const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
 
-const AbyssalS3 = () => {
+const AbyssalS6 = () => {
   // Basic MAP
-  const operation = useRef(null);
-  const scrollToOperation = () => scrollToRef(operation);
-
-  const guide = useRef(null);
-  const scrollToGuide = () => scrollToRef(guide);
-  // Basic MAP
-  const startUnit = useRef(null);
-  const scrollToUnit = () => scrollToRef(startUnit);
+  const map = useRef(null);
+  const scrollToMap = () => scrollToRef(map);
   // Basic Rule
   const rule = useRef(null);
   const scrollToRule = () => scrollToRef(rule);
+
+  // Route
+  const route = useRef(null);
+  const scrollToRoute = () => scrollToRef(route);
+
+  // Recommended Char
+  const recChar = useRef(null);
+  const scrollToChar = () => scrollToRef(recChar);
+
+  // Recommended CASUALS guide
+  const guideCASUALS = useRef(null);
+  const scrollToCASUALS = () => scrollToRef(guideCASUALS);
 
   const scrollToTop = () => window.scrollTo(0, 0);
 
@@ -42,13 +50,6 @@ const AbyssalS3 = () => {
               <button
                 type="button"
                 className="btn btn-secondary"
-                onClick={scrollToOperation}
-              >
-                현재 목표
-              </button>
-              <button
-                type="button"
-                className="btn btn-secondary"
                 onClick={scrollToRule}
               >
                 기본적인 룰
@@ -56,16 +57,9 @@ const AbyssalS3 = () => {
               <button
                 type="button"
                 className="btn btn-secondary"
-                onClick={scrollToGuide}
+                onClick={scrollToRoute}
               >
-                비쥬얼 가이드
-              </button>
-              <button
-                type="button"
-                className="btn btn-secondary"
-                onClick={scrollToUnit}
-              >
-                스타팅 유닛
+                공략 루트
               </button>
             </div>
           </div>
@@ -79,12 +73,14 @@ const AbyssalS3 = () => {
         >
           파티 원정이 처음이신분에게는 도움 될만한 글
         </a>
-        <div className="current-operation" ref={operation}>
+        <div className="current-operation">
           <h1>현재 목표</h1>
           <p>
             <strong>공통 </strong>: TBA
           </p>
-          <img src={mapImage} />
+        </div>
+        <div className="abyssal-map" ref={map}>
+          <img src={map_image} />
         </div>
         <button type="button" className="btn btn-success" onClick={scrollToTop}>
           페이지 맨 위로
@@ -170,17 +166,7 @@ const AbyssalS3 = () => {
           </button>
         </div>
         <br />
-        <div className="visual-guide" ref={guide}>
-          <img src={visualGuide} />
-          <button
-            type="button"
-            className="btn btn-success"
-            onClick={scrollToTop}
-          >
-            페이지 맨 위로
-          </button>
-        </div>
-        <div className="start-units" ref={startUnit}>
+        <div className="map" ref={route}>
           <h2>스타팅 포인트</h2>
           <p>
             사진에도 있듯이 <strong>참고사항</strong> 정도로만 봐주세요, 본인의
@@ -204,4 +190,4 @@ const AbyssalS3 = () => {
   );
 };
 
-export default AbyssalS3;
+export default AbyssalS6;

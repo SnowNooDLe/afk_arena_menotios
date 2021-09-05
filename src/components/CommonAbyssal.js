@@ -1,33 +1,22 @@
 import React, { Fragment, useRef } from "react";
 
 import tile from "assets/images/tile.jpg";
-import rule1 from "assets/images/rule.jpg";
-import mapImage from "assets/images/s5/season_4_5_map.jpg";
-import start1 from "assets/images/s5/start1.jpeg";
-import start2 from "assets/images/s5/start2.png";
-import start3 from "assets/images/s5/start3.jpeg";
-import visualGuide from "assets/images/s5/visual_guide.jpg";
+import startChar1 from "assets/images/guide_1.jpg";
+import startChar2 from "assets/images/guide_2.jpg";
+import casualsGuide from "assets/images/abyssal_guide.png";
+import map from "assets/images/guide_3.jpg";
+import example from "assets/images/example.jpg";
 
 import "assets/style/Abyssal.css";
 
 const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
 
-const AbyssalS3 = () => {
-  // Basic MAP
-  const operation = useRef(null);
-  const scrollToOperation = () => scrollToRef(operation);
-
-  const guide = useRef(null);
-  const scrollToGuide = () => scrollToRef(guide);
-  // Basic MAP
-  const startUnit = useRef(null);
-  const scrollToUnit = () => scrollToRef(startUnit);
+const AbyssalS1 = () => {
   // Basic Rule
   const rule = useRef(null);
   const scrollToRule = () => scrollToRef(rule);
 
   const scrollToTop = () => window.scrollTo(0, 0);
-
   return (
     <Fragment>
       <div className="jumbotron">
@@ -42,30 +31,9 @@ const AbyssalS3 = () => {
               <button
                 type="button"
                 className="btn btn-secondary"
-                onClick={scrollToOperation}
-              >
-                현재 목표
-              </button>
-              <button
-                type="button"
-                className="btn btn-secondary"
                 onClick={scrollToRule}
               >
                 기본적인 룰
-              </button>
-              <button
-                type="button"
-                className="btn btn-secondary"
-                onClick={scrollToGuide}
-              >
-                비쥬얼 가이드
-              </button>
-              <button
-                type="button"
-                className="btn btn-secondary"
-                onClick={scrollToUnit}
-              >
-                스타팅 유닛
               </button>
             </div>
           </div>
@@ -79,23 +47,28 @@ const AbyssalS3 = () => {
         >
           파티 원정이 처음이신분에게는 도움 될만한 글
         </a>
-        <div className="current-operation" ref={operation}>
+        <div className="current-operation">
           <h1>현재 목표</h1>
           <p>
-            <strong>공통 </strong>: TBA
+            현재 본인이 공작이면서 에센스 8천 이상이다 -> 별도 공지가 있을때까지
+            고기 존버
           </p>
-          <img src={mapImage} />
+          <p>
+            그 외 모든분들은 (현 27명) 공작까지 주말을 이용하여 최대한
+            올라와주시기 바랍니다.
+          </p>
+          <p>
+            <strong>공통 </strong>: 에센스는 최소 8천은 맞춰주세요.
+          </p>
         </div>
-        <button type="button" className="btn btn-success" onClick={scrollToTop}>
-          페이지 맨 위로
-        </button>
         <div className="basic-rule" ref={rule}>
           <h1>기본적인 룰</h1>
           <ol>
             <li>
-              이런식으로 체력 회복까지 남은 시간 이 표시될경우, 10분 이하 일때만
-              공격해주세요. 이 부분은 경고 + 추방 으로도 묶겠습니다.
-              <img src={rule1} />
+              공터 최소 3개 유지
+              <ul>
+                <li>길이 끊기는 것을 방지하기 위해 최소한 공터 3개 유지</li>
+              </ul>
             </li>
             <li>
               다른 사람이 잇고 있는 공터와 인접한 영지는 확인 (공지방 또는
@@ -170,38 +143,9 @@ const AbyssalS3 = () => {
           </button>
         </div>
         <br />
-        <div className="visual-guide" ref={guide}>
-          <img src={visualGuide} />
-          <button
-            type="button"
-            className="btn btn-success"
-            onClick={scrollToTop}
-          >
-            페이지 맨 위로
-          </button>
-        </div>
-        <div className="start-units" ref={startUnit}>
-          <h2>스타팅 포인트</h2>
-          <p>
-            사진에도 있듯이 <strong>참고사항</strong> 정도로만 봐주세요, 본인의
-            유닛 풀에 맞게 유동적으로 선택해주시기 바랍니다.
-          </p>
-          <img src={start2} />
-          <img src={start1} />
-          <img src={start3} />
-
-          <button
-            type="button"
-            className="btn btn-success"
-            onClick={scrollToTop}
-          >
-            페이지 맨 위로
-          </button>
-        </div>
-        <br />
       </div>
     </Fragment>
   );
 };
 
-export default AbyssalS3;
+export default AbyssalS1;
