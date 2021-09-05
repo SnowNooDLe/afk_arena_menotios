@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de1f2855fc6036fcd6bdef82717f150d",
+    "revision": "f627158852d9f6fe0f07d3323ece7576",
     "url": "/afk_arena_menotios/index.html"
   },
   {
-    "revision": "988f55776d16e5161d5d",
+    "revision": "9f47a898078497ebe4f6",
     "url": "/afk_arena_menotios/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "7bb4f67cf8715fa6ed8e",
-    "url": "/afk_arena_menotios/static/css/main.d7098ee7.chunk.css"
+    "revision": "a0af27137b53ba588dcd",
+    "url": "/afk_arena_menotios/static/css/main.2aab63a5.chunk.css"
   },
   {
-    "revision": "988f55776d16e5161d5d",
-    "url": "/afk_arena_menotios/static/js/2.42aede3e.chunk.js"
+    "revision": "9f47a898078497ebe4f6",
+    "url": "/afk_arena_menotios/static/js/2.b53dceb3.chunk.js"
   },
   {
     "revision": "8384746ad8dc0bf9dffaf5d64c673cd0",
-    "url": "/afk_arena_menotios/static/js/2.42aede3e.chunk.js.LICENSE.txt"
+    "url": "/afk_arena_menotios/static/js/2.b53dceb3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7bb4f67cf8715fa6ed8e",
-    "url": "/afk_arena_menotios/static/js/main.dad0eae3.chunk.js"
+    "revision": "a0af27137b53ba588dcd",
+    "url": "/afk_arena_menotios/static/js/main.3fa4e7c8.chunk.js"
   },
   {
     "revision": "0e0e73f1f28f0203cfd0",
@@ -72,8 +72,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/afk_arena_menotios/static/media/rule.8edb18f5.jpg"
   },
   {
-    "revision": "4186fd3363307c91f69e866e2fe59432",
-    "url": "/afk_arena_menotios/static/media/s3route.4186fd33.png"
+    "revision": "3f97dbc4f2911779ab8b2280fe84f710",
+    "url": "/afk_arena_menotios/static/media/season_4_5_map.3f97dbc4.jpg"
+  },
+  {
+    "revision": "bcab867d4dc0bb569db3ea21b3e91471",
+    "url": "/afk_arena_menotios/static/media/start1.bcab867d.jpeg"
+  },
+  {
+    "revision": "37d780016f3ebd8b20d7763fa079248e",
+    "url": "/afk_arena_menotios/static/media/start2.37d78001.png"
+  },
+  {
+    "revision": "7ab7e9796986ee602441b3f2fd13a78b",
+    "url": "/afk_arena_menotios/static/media/start3.7ab7e979.jpeg"
   },
   {
     "revision": "816dbf70c745968f881b38b840f35fc1",
