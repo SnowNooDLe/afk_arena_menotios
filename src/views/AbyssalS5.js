@@ -7,6 +7,11 @@ import start1 from "assets/images/s5/start1.jpeg";
 import start2 from "assets/images/s5/start2.png";
 import start3 from "assets/images/s5/start3.jpeg";
 import visualGuide from "assets/images/s5/visual_guide.jpg";
+import desira from "assets/images/s5/desira.png";
+import eluard1 from "assets/images/s5/eluard_1.png";
+import eluard2 from "assets/images/s5/eluard_2.png";
+import morael1 from "assets/images/s5/morael_1.png";
+import morael2 from "assets/images/s5/morael_2.png";
 
 import "assets/style/Abyssal.css";
 
@@ -25,6 +30,9 @@ const AbyssalS5 = () => {
   // Basic Rule
   const rule = useRef(null);
   const scrollToRule = () => scrollToRef(rule);
+
+  const boss = useRef(null);
+  const scrollToBoss = () => scrollToRef(boss);
 
   const scrollToTop = () => window.scrollTo(0, 0);
 
@@ -67,6 +75,13 @@ const AbyssalS5 = () => {
               >
                 스타팅 유닛
               </button>
+              <button
+                type="button"
+                className="btn btn-secondary"
+                onClick={scrollToBoss}
+              >
+                보스 조합 정보
+              </button>
             </div>
           </div>
         </div>
@@ -86,7 +101,9 @@ const AbyssalS5 = () => {
           </p>
           <h4>출처:</h4>
           <ul>
-            <li>https://www.reddit.com/r/afkarena/comments/pgqdj2/abex_map_s45_efficient_mode_by_sniffet/</li>
+            <li>
+              https://www.reddit.com/r/afkarena/comments/pgqdj2/abex_map_s45_efficient_mode_by_sniffet/
+            </li>
           </ul>
           <img src={mapImage} />
         </div>
@@ -210,6 +227,36 @@ const AbyssalS5 = () => {
           >
             페이지 맨 위로
           </button>
+          <div className="boss-units" ref={boss}>
+            <h2>보스조합</h2>
+            <h4>출처</h4>
+            <ul>
+              <li>
+                https://www.reddit.com/r/afkarena/comments/ph9arw/megathread_abyssal_expeditionabex/
+              </li>
+            </ul>
+            <h3>디셀라 - 12시 출발</h3>
+            <h5>민첩 유물 4.5 ; 서폿 유물 3.0 ; 성유물 - 공룡</h5>
+            <img src={desira} />
+            <h3>엘루어드 - 7시 출발</h3>
+            <h5>민첩 유물 4.4 ; 서폿 유물 3.1</h5>
+            <img src={eluard1} />
+            <h5>정보 X</h5>
+            <img src={eluard2} />
+            <h3>모라엘 - 5시 출발</h3>
+            <h5>민첩 유물 4.5 ; 성유물 - 로완; 손컨 라쿠 궁X</h5>
+            <img src={morael1} />
+            <h5>민첩 유물 4.5 ; 성유물 - 공룡; 손컨 라쿠 궁X</h5>
+            <img src={morael2} />
+
+            <button
+              type="button"
+              className="btn btn-success"
+              onClick={scrollToTop}
+            >
+              페이지 맨 위로
+            </button>
+          </div>
         </div>
         <br />
       </div>
