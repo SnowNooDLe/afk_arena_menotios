@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e8486907ff0911f07383b46db358a91d",
+    "revision": "2edeb69078bf0745007b9042acfa7be8",
     "url": "/afk_arena_menotios/index.html"
   },
   {
-    "revision": "20fd2f57000d4b30a1bc",
+    "revision": "d69ef229383eadd66ab5",
     "url": "/afk_arena_menotios/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "9e77759022ac4c8f9e96",
+    "revision": "7e97cafd89670b1f5038",
     "url": "/afk_arena_menotios/static/css/main.2aab63a5.chunk.css"
   },
   {
-    "revision": "20fd2f57000d4b30a1bc",
-    "url": "/afk_arena_menotios/static/js/2.bc0ae65a.chunk.js"
+    "revision": "d69ef229383eadd66ab5",
+    "url": "/afk_arena_menotios/static/js/2.4d5a5de1.chunk.js"
   },
   {
     "revision": "8384746ad8dc0bf9dffaf5d64c673cd0",
-    "url": "/afk_arena_menotios/static/js/2.bc0ae65a.chunk.js.LICENSE.txt"
+    "url": "/afk_arena_menotios/static/js/2.4d5a5de1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9e77759022ac4c8f9e96",
-    "url": "/afk_arena_menotios/static/js/main.9e02a3a1.chunk.js"
+    "revision": "7e97cafd89670b1f5038",
+    "url": "/afk_arena_menotios/static/js/main.6f558a57.chunk.js"
   },
   {
     "revision": "0e0e73f1f28f0203cfd0",
@@ -30,6 +30,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "672f0394b20e96cf4aa3224a7354a601",
     "url": "/afk_arena_menotios/static/media/abyssal_guide.672f0394.png"
+  },
+  {
+    "revision": "fa0b55618fbd35e4cbb4999d9e7a8ac5",
+    "url": "/afk_arena_menotios/static/media/desira.fa0b5561.png"
+  },
+  {
+    "revision": "db39e4f58a56a53bfbe1f1b3655c0041",
+    "url": "/afk_arena_menotios/static/media/eluard_1.db39e4f5.png"
+  },
+  {
+    "revision": "f3c27bec09690ad91ae48b2b8f74162e",
+    "url": "/afk_arena_menotios/static/media/eluard_2.f3c27bec.png"
   },
   {
     "revision": "3f31226767a1d3f118f75b5330863daa",
@@ -50,6 +62,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dbd1c51fbbeeae202d40c29fdf109219",
     "url": "/afk_arena_menotios/static/media/left.dbd1c51f.png"
+  },
+  {
+    "revision": "98eab6b810fc927b6c549d59893f2ff0",
+    "url": "/afk_arena_menotios/static/media/morael_1.98eab6b8.png"
+  },
+  {
+    "revision": "41ba98046f953df929978b75f39eb995",
+    "url": "/afk_arena_menotios/static/media/morael_2.41ba9804.png"
   },
   {
     "revision": "272fe14c8f56396e40eacfb6464bc763",
