@@ -17,7 +17,7 @@ h3.red-line {
 
 h3.light-sky-line {
   font-weight: bolder;
-  color: #87CEFA;
+  color: #87cefa;
 }
 h3.orange-line {
   font-weight: bolder;
@@ -38,3 +38,7 @@ div.current-operation {
   margin-top: 20px;
 }
 
+h2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

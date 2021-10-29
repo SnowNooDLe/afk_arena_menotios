@@ -55,16 +55,16 @@ const NavBar = () => {
                       시즌 5
                     </NavLink>
                   </DropdownItem>
-                  {/* <DropdownItem>
+                  <DropdownItem>
                     <NavLink tag={Link} to={"/abyssal_s6"}>
                       시즌 6
                     </NavLink>
-                  </DropdownItem> */}
+                  </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <NavLink tag={Link} to={"/rcmdeck"}>
-                  시즌 3 추천 스타팅 덱
+                <NavLink tag={Link} to={"/abyssal_s6"}>
+                  현재 시즌
                 </NavLink>
               </NavItem>
               <NavItem>
