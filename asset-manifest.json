@@ -1,21 +1,24 @@
 {
   "files": {
     "main.css": "/afk_arena_menotios/static/css/main.7efa01a6.chunk.css",
-    "main.js": "/afk_arena_menotios/static/js/main.1a1d42e7.chunk.js",
-    "main.js.map": "/afk_arena_menotios/static/js/main.1a1d42e7.chunk.js.map",
+    "main.js": "/afk_arena_menotios/static/js/main.e91d96e9.chunk.js",
+    "main.js.map": "/afk_arena_menotios/static/js/main.e91d96e9.chunk.js.map",
     "runtime-main.js": "/afk_arena_menotios/static/js/runtime-main.45e35db9.js",
     "runtime-main.js.map": "/afk_arena_menotios/static/js/runtime-main.45e35db9.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/afk_arena_menotios/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.64b9ac58.chunk.js": "/afk_arena_menotios/static/js/2.64b9ac58.chunk.js",
-    "static/js/2.64b9ac58.chunk.js.map": "/afk_arena_menotios/static/js/2.64b9ac58.chunk.js.map",
+    "static/js/2.dd7793dd.chunk.js": "/afk_arena_menotios/static/js/2.dd7793dd.chunk.js",
+    "static/js/2.dd7793dd.chunk.js.map": "/afk_arena_menotios/static/js/2.dd7793dd.chunk.js.map",
     "index.html": "/afk_arena_menotios/index.html",
-    "precache-manifest.ba98d5059ae486163f19b0b0b06d59a4.js": "/afk_arena_menotios/precache-manifest.ba98d5059ae486163f19b0b0b06d59a4.js",
+    "precache-manifest.307cc83d61928e57eb6626c41e753021.js": "/afk_arena_menotios/precache-manifest.307cc83d61928e57eb6626c41e753021.js",
     "service-worker.js": "/afk_arena_menotios/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/afk_arena_menotios/static/css/2.8aa5a7f8.chunk.css.map",
     "static/css/main.7efa01a6.chunk.css.map": "/afk_arena_menotios/static/css/main.7efa01a6.chunk.css.map",
-    "static/js/2.64b9ac58.chunk.js.LICENSE.txt": "/afk_arena_menotios/static/js/2.64b9ac58.chunk.js.LICENSE.txt",
+    "static/js/2.dd7793dd.chunk.js.LICENSE.txt": "/afk_arena_menotios/static/js/2.dd7793dd.chunk.js.LICENSE.txt",
     "static/media/abyssal_guide.png": "/afk_arena_menotios/static/media/abyssal_guide.672f0394.png",
+    "static/media/arden.png": "/afk_arena_menotios/static/media/arden.36d7f94f.png",
+    "static/media/burning.png": "/afk_arena_menotios/static/media/burning.926a8068.png",
     "static/media/combi.webp": "/afk_arena_menotios/static/media/combi.c1e5cd6c.webp",
+    "static/media/demonic.png": "/afk_arena_menotios/static/media/demonic.59eb2bbc.png",
     "static/media/desira.png": "/afk_arena_menotios/static/media/desira.fa0b5561.png",
     "static/media/eluard_1.png": "/afk_arena_menotios/static/media/eluard_1.db39e4f5.png",
     "static/media/eluard_2.png": "/afk_arena_menotios/static/media/eluard_2.f3c27bec.png",
@@ -23,6 +26,8 @@
     "static/media/guide_1.jpg": "/afk_arena_menotios/static/media/guide_1.f8a57824.jpg",
     "static/media/guide_2.jpg": "/afk_arena_menotios/static/media/guide_2.e84a0724.jpg",
     "static/media/guide_3.jpg": "/afk_arena_menotios/static/media/guide_3.2f948142.jpg",
+    "static/media/idre.png": "/afk_arena_menotios/static/media/idre.4b3e8a4a.png",
+    "static/media/kane.png": "/afk_arena_menotios/static/media/kane.a6f710c6.png",
     "static/media/left.png": "/afk_arena_menotios/static/media/left.dbd1c51f.png",
     "static/media/morael_1.png": "/afk_arena_menotios/static/media/morael_1.98eab6b8.png",
     "static/media/morael_2.png": "/afk_arena_menotios/static/media/morael_2.41ba9804.png",
@@ -32,6 +37,7 @@
     "static/media/right.png": "/afk_arena_menotios/static/media/right.c9746932.png",
     "static/media/rule.jpg": "/afk_arena_menotios/static/media/rule.8edb18f5.jpg",
     "static/media/season_4_5_map.jpg": "/afk_arena_menotios/static/media/season_4_5_map.3f97dbc4.jpg",
+    "static/media/shemira.png": "/afk_arena_menotios/static/media/shemira.f8a72cab.png",
     "static/media/start.jpg": "/afk_arena_menotios/static/media/start.dde24ac0.jpg",
     "static/media/start1.jpeg": "/afk_arena_menotios/static/media/start1.bcab867d.jpeg",
     "static/media/start2.png": "/afk_arena_menotios/static/media/start2.37d78001.png",
@@ -42,8 +48,8 @@
   "entrypoints": [
     "static/js/runtime-main.45e35db9.js",
     "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.64b9ac58.chunk.js",
+    "static/js/2.dd7793dd.chunk.js",
     "static/css/main.7efa01a6.chunk.css",
-    "static/js/main.1a1d42e7.chunk.js"
+    "static/js/main.e91d96e9.chunk.js"
   ]
 }

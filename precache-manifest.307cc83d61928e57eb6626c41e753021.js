@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "98e464515827bbba03dd688710495f84",
+    "revision": "682dfeff75bc700a0294b9db7e3b283e",
     "url": "/afk_arena_menotios/index.html"
   },
   {
-    "revision": "2e6526b49d0403eae162",
+    "revision": "64d428c82926d5e87022",
     "url": "/afk_arena_menotios/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "c859f611ae23dd8150b2",
+    "revision": "75a36d671673158bf4a9",
     "url": "/afk_arena_menotios/static/css/main.7efa01a6.chunk.css"
   },
   {
-    "revision": "2e6526b49d0403eae162",
-    "url": "/afk_arena_menotios/static/js/2.64b9ac58.chunk.js"
+    "revision": "64d428c82926d5e87022",
+    "url": "/afk_arena_menotios/static/js/2.dd7793dd.chunk.js"
   },
   {
     "revision": "8384746ad8dc0bf9dffaf5d64c673cd0",
-    "url": "/afk_arena_menotios/static/js/2.64b9ac58.chunk.js.LICENSE.txt"
+    "url": "/afk_arena_menotios/static/js/2.dd7793dd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c859f611ae23dd8150b2",
-    "url": "/afk_arena_menotios/static/js/main.1a1d42e7.chunk.js"
+    "revision": "75a36d671673158bf4a9",
+    "url": "/afk_arena_menotios/static/js/main.e91d96e9.chunk.js"
   },
   {
     "revision": "0e0e73f1f28f0203cfd0",
@@ -32,8 +32,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/afk_arena_menotios/static/media/abyssal_guide.672f0394.png"
   },
   {
+    "revision": "36d7f94ffe85b53ae0fa93c0ef01dabc",
+    "url": "/afk_arena_menotios/static/media/arden.36d7f94f.png"
+  },
+  {
+    "revision": "926a8068f4baf05605dc7bd9806ed6be",
+    "url": "/afk_arena_menotios/static/media/burning.926a8068.png"
+  },
+  {
     "revision": "c1e5cd6ce292e8bf46873f41fec65bd1",
     "url": "/afk_arena_menotios/static/media/combi.c1e5cd6c.webp"
+  },
+  {
+    "revision": "59eb2bbce6beac87a6e9b5f983744624",
+    "url": "/afk_arena_menotios/static/media/demonic.59eb2bbc.png"
   },
   {
     "revision": "fa0b55618fbd35e4cbb4999d9e7a8ac5",
@@ -62,6 +74,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2f9481426e3f27816a8e4407d682b0a2",
     "url": "/afk_arena_menotios/static/media/guide_3.2f948142.jpg"
+  },
+  {
+    "revision": "4b3e8a4acad158417cfba8921442a2ac",
+    "url": "/afk_arena_menotios/static/media/idre.4b3e8a4a.png"
+  },
+  {
+    "revision": "a6f710c60d490f2af3d162143c37c5c3",
+    "url": "/afk_arena_menotios/static/media/kane.a6f710c6.png"
   },
   {
     "revision": "dbd1c51fbbeeae202d40c29fdf109219",
@@ -98,6 +118,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3f97dbc4f2911779ab8b2280fe84f710",
     "url": "/afk_arena_menotios/static/media/season_4_5_map.3f97dbc4.jpg"
+  },
+  {
+    "revision": "f8a72cabe5432e52ebabd94d8a05862a",
+    "url": "/afk_arena_menotios/static/media/shemira.f8a72cab.png"
   },
   {
     "revision": "dde24ac0ed5bf49c71ce2f1d7c273498",
